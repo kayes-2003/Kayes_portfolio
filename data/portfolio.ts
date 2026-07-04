@@ -12,7 +12,7 @@ export const siteConfig = {
   linkedin: "https://www.linkedin.com/in/syed-kayes-mahmud-b722b5347/",
   twitter: "https://twitter.com/kayesmahmud",
   website: "https://kayes-portfolio-lemon.vercel.app",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Resume.pdf",
   available: true, // shows "Available for work" badge
 };
 
