@@ -115,28 +115,28 @@ export const projects = [
 
 export const experience = [
   {
-    company: "Stripe",
-    role: "Senior Full Stack Engineer",
-    period: "2022 – Present",
+    company: "Freelance — University & Agency",
+    role: "Senior Full Stack Developer",
+    period: "Jan 2026 – Present",
     description:
-      "Building payment flow UI and backend APIs serving 50M+ transactions per month. Led migration from monolith to microservices, reducing latency by 40%.",
-    skills: ["React", "Node.js", "Go", "PostgreSQL", "Kubernetes"],
+      "Led migration of a legacy monolith to a microservices architecture using Node.js and Docker, reducing average API response time by 38%. Built a React/TypeScript dashboard used by 1,000+ monthly active users, improving page load speed by 45% through code-splitting and lazy loading. Designed RESTful APIs and PostgreSQL schemas for a payments module handling BDT 1M+ in monthly transactions. Mentored 3 junior developers and introduced a CI/CD pipeline that cut deployment time from 45 to 8 minutes.",
+    skills: ["React", "TypeScript", "Node.js", "Docker", "PostgreSQL", "GitHub Actions"],
   },
   {
-    company: "Vercel",
+    company: "Alumni Association, Jahangirnagar University",
     role: "Full Stack Developer",
-    period: "2020 – 2022",
+    period: "Jun 2025 – Dec 2025",
     description:
-      "Contributed to the Next.js edge runtime and built internal tooling used by 3,000+ engineers. Shipped the dashboard redesign used by 500K+ developers.",
-    skills: ["Next.js", "TypeScript", "Rust", "Redis"],
+      "Developed and maintained customer-facing web applications using React, Express, and Supabase serving 50,000+ users. Implemented JWT-based authentication and role-based access control across 5 internal tools. Collaborated with product and design teams to ship 20+ features on a two-week sprint cycle, maintaining 90%+ test coverage with Jest and Cypress. Optimized SQL queries and added Redis caching, cutting average database load by 30%.",
+    skills: ["React", "Express", "Supabase", "Redis", "Jest", "Cypress"],
   },
   {
-    company: "Acme Inc.",
-    role: "Frontend Engineer",
-    period: "2019 – 2020",
+    company: "Jahangirnagar University Science Club",
+    role: "Junior Web Developer",
+    period: "Aug 2024 – May 2025",
     description:
-      "Led a team of 4 to redesign the core product from a jQuery monolith to a React + GraphQL architecture. Improved page load time by 65%.",
-    skills: ["React", "GraphQL", "Apollo", "Styled Components"],
+      "Built responsive websites and landing pages using HTML, CSS, and vanilla JavaScript for 15+ small projects. Assisted senior developers with bug fixes and QA testing across client React projects.",
+    skills: ["HTML", "CSS", "JavaScript", "QA"],
   },
 ];
 
