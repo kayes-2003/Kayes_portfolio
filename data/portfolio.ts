@@ -11,7 +11,7 @@ export const siteConfig = {
   github: "https://github.com/kayes-2003",
   linkedin: "https://www.linkedin.com/in/syed-kayes-mahmud-b722b5347/",
   twitter: "https://twitter.com/kayesmahmud",
-  website: "https://alexchen.dev",
+  website: "https://kayes-portfolio-lemon.vercel.app",
   resumeUrl: "/resume.pdf",
   available: true, // shows "Available for work" badge
 };
