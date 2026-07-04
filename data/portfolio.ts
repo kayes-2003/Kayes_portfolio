@@ -3,14 +3,14 @@
 // ============================================================
 
 export const siteConfig = {
-  name: "Alex Chen",
+  name: "Syed Kayes Mahmud",
   role: "Full Stack Developer",
-  location: "San Francisco, CA",
-  email: "alex@alexchen.dev",
+  location: "Dhaka, Bangladesh",
+  email: "syedkayesmahmud@gmail.com",
   bio: "I build scalable web applications — clean on the frontend, solid on the backend. Five years turning complex product ideas into fast, production-ready software.",
-  github: "https://github.com/alexchen",
-  linkedin: "https://linkedin.com/in/alexchen",
-  twitter: "https://twitter.com/alexchen",
+  github: "https://github.com/kayes-2003",
+  linkedin: "https://www.linkedin.com/in/syed-kayes-mahmud-b722b5347/",
+  twitter: "https://twitter.com/kayesmahmud",
   website: "https://alexchen.dev",
   resumeUrl: "/resume.pdf",
   available: true, // shows "Available for work" badge
@@ -18,8 +18,8 @@ export const siteConfig = {
 
 export const stats = [
   { value: "30+", label: "Projects shipped" },
-  { value: "5 yrs", label: "Experience" },
-  { value: "50M+", label: "Users served" },
+  { value: "2 yrs", label: "Experience" },
+  { value: "10+", label: "Users served" },
   { value: "12", label: "OSS contributions" },
 ];
 
@@ -54,7 +54,7 @@ export const skills = [
       { name: "MongoDB", level: 80 },
       { name: "Redis", level: 75 },
       { name: "Prisma", level: 82 },
-      { name: "Supabase", level: 78 },
+      { name: "Supabase", level: 100 },
     ],
   },
   {
@@ -65,42 +65,42 @@ export const skills = [
       { name: "Docker", level: 85 },
       { name: "Kubernetes", level: 70 },
       { name: "GitHub Actions", level: 88 },
-      { name: "Vercel / Netlify", level: 92 },
+      { name: "Vercel / Netlify", level: 98},
     ],
   },
 ];
 
 export const projects = [
   {
-    title: "SaaS Analytics Dashboard",
-    description:
-      "Real-time analytics platform with role-based access control, multi-tenant architecture, and live WebSocket dashboards. Serves 200+ enterprise clients.",
-    tags: ["Next.js", "TypeScript", "PostgreSQL", "Redis", "AWS"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/alexchen/saas-dashboard",
-    featured: true,
-    color: "#0070F3",
-  },
+  title: "La Maison — Fine Dining Web App",
+  description:
+    "Fully web-controlled restaurant platform with real-time order tracking, admin dashboard, and customer-facing menu. Features role-based access (admin/customer), live delivery status updates via Supabase Realtime, Supabase Auth, hero carousel controlled from the admin panel, product wishlist, per-item star ratings, social sharing, sales analytics.",
+  tags: ["React 18", "TypeScript", "Vite", "Supabase", "PostgreSQL", "Tailwind CSS", "Supabase Realtime", "Row Level Security"],
+  liveUrl: "https://la-maison-web.vercel.app/",
+  githubUrl: "https://github.com/kayes-2003/La_Maison",
+  featured: true,
+  color: "#c9a96e",   // La Maison brand gold
+},
   {
-    title: "AI Chat Application",
-    description:
-      "Full-stack AI assistant with streaming responses, persistent conversation history, file uploads, and RAG-based document search.",
-    tags: ["React", "FastAPI", "Python", "OpenAI", "Pinecone"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/alexchen/ai-chat",
-    featured: true,
-    color: "#7C3AED",
-  },
+  title: "BlogSphere",
+  description:
+    "Full-stack blogging platform with secure auth, role-based access (reader · author · admin), rich editor with cover image upload, categories, comment moderation, and author dashboard.",
+  tags: ["React", "Tailwind CSS", "Supabase", "React Router", "Vite"],
+  liveUrl: "https://blogsphere-t5id.vercel.app/",
+  githubUrl: "https://github.com/kayes-2003/blogsphere",
+  featured: true,
+  color: "#0F6E56",
+},
   {
-    title: "E-Commerce Platform",
-    description:
-      "Headless commerce solution with custom CMS, Stripe payments, inventory management, and a mobile-first storefront. $2M+ in GMV.",
-    tags: ["Next.js", "Stripe", "Sanity CMS", "Node.js", "MongoDB"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/alexchen/ecommerce",
-    featured: true,
-    color: "#059669",
-  },
+  title: "University Central Sports Platform",
+  description:
+    "Full-stack live sports update platform with real-time scoreboards, event timelines, player and team management, admin dashboard, Cloudinary image uploads, and role-based access — built with Next.js, Node.js, PostgreSQL (Neon), and Socket.io.",
+  tags: ["Next.js", "Node.js", "PostgreSQL", "Socket.io", "Cloudinary", "TypeScript"],
+  liveUrl: "https://sports-platform-qbxi.vercel.app/",
+  githubUrl: "https://github.com/kayes-2003/sports-platform",
+  featured: true,
+  color: "#185FA5",
+},
   {
     title: "DevOps Monitoring Tool",
     description:
