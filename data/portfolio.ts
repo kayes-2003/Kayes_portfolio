@@ -143,16 +143,16 @@ export const experience = [
 export const testimonials = [
   {
     quote:
-      "Alex delivered a complex multi-tenant platform two weeks ahead of schedule. The code quality was exceptional — our team learned a lot from reading it.",
-    name: "James Kim",
-    role: "CTO, StartupXYZ",
-    initials: "JK",
+      "Syed delivered a complex multi-tenant platform two weeks ahead of schedule. The code quality was exceptional — our team learned a lot from reading it.",
+    name: "TariK Ahmed",
+    role: "CTO, Dorja",
+    initials: "TA",
   },
   {
     quote:
-      "One of the best engineers I've worked with. Alex has a rare combination of deep technical skill and strong product instincts. He ships fast and gets things right.",
-    name: "Sarah Park",
-    role: "Engineering Manager, Stripe",
-    initials: "SP",
+      "One of the best tellent I've worked with. Syed has a rare combination of deep technical skill and strong product instincts. He ships fast and gets things right.",
+    name: "Kazi Arif",
+    role: "General Secretary, Alumi Association",
+    initials: "KA",
   },
 ];
