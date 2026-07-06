@@ -1,7 +1,3 @@
-// ============================================================
-// PORTFOLIO DATA — edit everything here
-// ============================================================
-
 export const siteConfig = {
   name: "Syed Kayes Mahmud",
   role: "Full Stack Developer",
@@ -101,15 +97,15 @@ export const projects = [
   featured: true,
   color: "#185FA5",
 },
-  {
-    title: "DevOps Monitoring Tool",
+ {
+    title: "Dorja",
     description:
-      "Infrastructure monitoring dashboard with Prometheus metrics, alerting, log aggregation, and Slack/PagerDuty integrations.",
-    tags: ["React", "Go", "Prometheus", "Grafana", "Docker"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/alexchen/devops-monitor",
-    featured: false,
-    color: "#EA580C",
+      "Hyperlocal delivery network connecting neighbourhood couriers already working for Daraz, CarryBee, Paperfly, and Steadfast with local customers — for surprise gift sends, supershop pickups, and same-area parcels, plus full customer/courier/admin dashboards.",
+    tags: ["React", "FastAPI", "Python", "Supabase", "PostgreSQL", "Vercel"],
+    liveUrl: "https://dorja-9n53.vercel.app/",
+    githubUrl: "https://github.com/kayes-2003/dorja",
+    featured: true,
+    color: "#1F8A8C",
   },
 ];
 
