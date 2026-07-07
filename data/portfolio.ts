@@ -112,7 +112,7 @@ export const projects = [
 export const experience = [
   {
     company: "Freelance — University & Agency",
-    role: "Senior Full Stack Developer",
+    role: "Full Stack Developer",
     period: "Jan 2026 – Present",
     description:
       "Led migration of a legacy monolith to a microservices architecture using Node.js and Docker, reducing average API response time by 38%. Built a React/TypeScript dashboard used by 1,000+ monthly active users, improving page load speed by 45% through code-splitting and lazy loading. Designed RESTful APIs and PostgreSQL schemas for a payments module handling BDT 1M+ in monthly transactions. Mentored 3 junior developers and introduced a CI/CD pipeline that cut deployment time from 45 to 8 minutes.",
@@ -123,7 +123,7 @@ export const experience = [
     role: "Full Stack Developer",
     period: "Jun 2025 – Dec 2025",
     description:
-      "Developed and maintained customer-facing web applications using React, Express, and Supabase serving 50,000+ users. Implemented JWT-based authentication and role-based access control across 5 internal tools. Collaborated with product and design teams to ship 20+ features on a two-week sprint cycle, maintaining 90%+ test coverage with Jest and Cypress. Optimized SQL queries and added Redis caching, cutting average database load by 30%.",
+      "Developed and maintained customer-facing web applications using React, Express, and Supabase, architecting the platform to scale to 50,000+ users and validating performance with real production data. Implemented JWT-based authentication and role-based access control across 5 internal tools. Collaborated with product and design teams to ship 20+ features on a two-week sprint cycle, maintaining 90%+ test coverage with Jest and Cypress. Optimized SQL queries and added Redis caching, cutting average database load by 30%.",
     skills: ["React", "Express", "Supabase", "Redis", "Jest", "Cypress"],
   },
   {
