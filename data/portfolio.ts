@@ -90,22 +90,32 @@ export const projects = [
     color: "#0F6E56",
   },
   {
-  title: "University Central Sports Platform",
-  description:
-    "Full-stack live sports update platform with real-time scoreboards, event timelines, player and team management, admin dashboard, Cloudinary image uploads, and role-based access — built with Next.js, Node.js, PostgreSQL (Neon), and Socket.io.",
-  tags: ["Next.js", "Node.js", "PostgreSQL", "Socket.io", "Cloudinary", "TypeScript"],
-  liveUrl: "https://sports-platform-qbxi.vercel.app/",
-  githubUrl: "https://github.com/kayes-2003/sports-platform",
-  featured: true,
-  color: "#185FA5",
-},
-  {
-    title: "DevOps Monitoring Tool",
+    title: "Dorja",
     description:
-      "Infrastructure monitoring dashboard with Prometheus metrics, alerting, log aggregation, and Slack/PagerDuty integrations.",
-    tags: ["React", "Go", "Prometheus", "Grafana", "Docker"],
+      "Local delivery app UI covering order placement, tracking, and a customer-facing dashboard.",
+    tags: ["React", "Tailwind CSS"],
+    liveUrl: "https://dorja.vercel.app/",
+    githubUrl: "https://github.com/kayes-2003",
+    featured: false,
+    color: "#7C3AED",
+  },
+  {
+    title: "Taco Shop",
+    description:
+      "React-based food-ordering UI with menu browsing and cart functionality.",
+    tags: ["React"],
+    liveUrl: "https://taco-shop-six.vercel.app/",
+    githubUrl: "https://github.com/kayes-2003",
+    featured: false,
+    color: "#DB2777",
+  },
+  {
+    title: "WiFi Security Extension",
+    description:
+      "Browser extension that scans connected WiFi networks for common vulnerabilities (weak encryption, open ports, default credentials) and alerts users in real time.",
+    tags: ["JavaScript", "WebExtensions API"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/alexchen/devops-monitor",
+    githubUrl: "https://github.com/kayes-2003",
     featured: false,
     color: "#EA580C",
   },
