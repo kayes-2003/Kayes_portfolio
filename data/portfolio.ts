@@ -90,32 +90,22 @@ export const projects = [
     color: "#0F6E56",
   },
   {
-    title: "Dorja",
-    description:
-      "Local delivery app UI covering order placement, tracking, and a customer-facing dashboard.",
-    tags: ["React", "Tailwind CSS"],
-    liveUrl: "https://dorja.vercel.app/",
-    githubUrl: "https://github.com/kayes-2003",
-    featured: false,
-    color: "#7C3AED",
-  },
+  title: "University Central Sports Platform",
+  description:
+    "Full-stack live sports update platform with real-time scoreboards, event timelines, player and team management, admin dashboard, Cloudinary image uploads, and role-based access — built with Next.js, Node.js, PostgreSQL (Neon), and Socket.io.",
+  tags: ["Next.js", "Node.js", "PostgreSQL", "Socket.io", "Cloudinary", "TypeScript"],
+  liveUrl: "https://sports-platform-qbxi.vercel.app/",
+  githubUrl: "https://github.com/kayes-2003/sports-platform",
+  featured: true,
+  color: "#185FA5",
+},
   {
-    title: "Taco Shop",
+    title: "DevOps Monitoring Tool",
     description:
-      "React-based food-ordering UI with menu browsing and cart functionality.",
-    tags: ["React"],
-    liveUrl: "https://taco-shop-six.vercel.app/",
-    githubUrl: "https://github.com/kayes-2003",
-    featured: false,
-    color: "#DB2777",
-  },
-  {
-    title: "WiFi Security Extension",
-    description:
-      "Browser extension that scans connected WiFi networks for common vulnerabilities (weak encryption, open ports, default credentials) and alerts users in real time.",
-    tags: ["JavaScript", "WebExtensions API"],
+      "Infrastructure monitoring dashboard with Prometheus metrics, alerting, log aggregation, and Slack/PagerDuty integrations.",
+    tags: ["React", "Go", "Prometheus", "Grafana", "Docker"],
     liveUrl: "https://example.com",
-    githubUrl: "https://github.com/kayes-2003",
+    githubUrl: "https://github.com/alexchen/devops-monitor",
     featured: false,
     color: "#EA580C",
   },
@@ -125,6 +115,22 @@ export const projects = [
 // OWASP ZAP, and SSL Labs (per project, as applicable) — same claim as the resume.
 
 export const experience = [
+  {
+    company: "Freelance — University & Agency",
+    role: "Senior Full Stack Developer",
+    period: "Jan 2026 – Present",
+    description:
+      "Led migration of a legacy monolith to a microservices architecture using Node.js and Docker, reducing average API response time by 38%. Built a React/TypeScript dashboard used by 1,000+ monthly active users, improving page load speed by 45% through code-splitting and lazy loading. Designed RESTful APIs and PostgreSQL schemas for a payments module handling BDT 1M+ in monthly transactions. Mentored 3 junior developers and introduced a CI/CD pipeline that cut deployment time from 45 to 8 minutes.",
+    skills: ["React", "TypeScript", "Node.js", "Docker", "PostgreSQL", "GitHub Actions"],
+  },
+  {
+    company: "Alumni Association, Jahangirnagar University",
+    role: "Full Stack Developer",
+    period: "Jun 2025 – Dec 2025",
+    description:
+      "Developed and maintained customer-facing web applications using React, Express, and Supabase serving 50,000+ users. Implemented JWT-based authentication and role-based access control across 5 internal tools. Collaborated with product and design teams to ship 20+ features on a two-week sprint cycle, maintaining 90%+ test coverage with Jest and Cypress. Optimized SQL queries and added Redis caching, cutting average database load by 30%.",
+    skills: ["React", "Express", "Supabase", "Redis", "Jest", "Cypress"],
+  },
   {
     company: "Jahangirnagar University Science Club",
     role: "Web Contributor",
