@@ -27,7 +27,7 @@ export default function Skills() {
       />
 
       <div className="grid md:grid-cols-2 gap-6 mt-12">
-        {skills.map((group) => (
+        {skills.map((group, groupIndex) => (
           <div
             key={group.category}
             className="bg-[#111] border border-white/5 rounded-xl p-6 card-hover"
@@ -37,24 +37,19 @@ export default function Skills() {
               <h3 className="text-white font-medium">{group.category}</h3>
             </div>
 
-            <div className="space-y-4">
-              {group.items.map((skill) => (
-                <div key={skill.name}>
-                  <div className="flex justify-between mb-1.5">
-                    <span className="text-sm text-neutral-300 font-mono">
-                      {skill.name}
-                    </span>
-                    <span className="text-xs text-neutral-600">
-                      {skill.level}%
-                    </span>
-                  </div>
-                  <div className="h-0.5 bg-white/5 rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-gradient-to-r from-blue-500 to-blue-400 rounded-full skill-bar-fill"
-                      style={{ width: inView ? `${skill.level}%` : "0%" }}
-                    />
-                  </div>
-                </div>
+            <div className="flex flex-wrap gap-2">
+              {group.items.map((skill, i) => (
+                <span
+                  key={skill}
+                  className="px-3 py-1.5 rounded-full text-sm font-mono text-neutral-300 bg-white/5 border border-white/10 transition-all duration-300"
+                  style={{
+                    opacity: inView ? 1 : 0,
+                    transform: inView ? "translateY(0)" : "translateY(4px)",
+                    transitionDelay: inView ? `${groupIndex * 60 + i * 40}ms` : "0ms",
+                  }}
+                >
+                  {skill}
+                </span>
               ))}
             </div>
           </div>
