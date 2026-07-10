@@ -22,7 +22,7 @@ export default function Contact() {
   const socials = [
     { label: "Email", value: siteConfig.email, href: `mailto:${siteConfig.email}`, icon: MailIcon },
     { label: "GitHub", value: "https://github.com/kayes-2003", href: siteConfig.github, icon: GithubIcon },
-    { label: "LinkedIn", value: "https://linkedin.com/in/syed-kayes-mahmud-b722b5347   ", href: siteConfig.linkedin, icon: LinkedinIcon },
+    { label: "LinkedIn", value: "https://linkedin.com/in/syed-kayes-mahmud/   ", href: siteConfig.linkedin, icon: LinkedinIcon },
     { label: "Website", value: siteConfig.website, href: siteConfig.website, icon: GlobeIcon },
   ];
 

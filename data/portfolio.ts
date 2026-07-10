@@ -5,7 +5,7 @@ export const siteConfig = {
   email: "syedkayesmahmud@gmail.com",
   bio: "Self-taught full-stack developer building and rigorously testing production-style web apps since 2023 — clean on the frontend, solid on the backend. Open to freelance and remote contract work — available immediately.",
   github: "https://github.com/kayes-2003",
-  linkedin: "https://www.linkedin.com/in/syed-kayes-mahmud-b722b5347/",
+  linkedin: "https://www.linkedin.com/in/syed-kayes-mahmud/",
   twitter: "https://twitter.com/kayesmahmud",
   website: "https://kayes-portfolio-lemon.vercel.app",
   resumeUrl: "/Resume.pdf",
@@ -13,6 +13,7 @@ export const siteConfig = {
 };
 
 export const stats = [
+  { value: "", label: "" },
   { value: "7+", label: "Projects Shipped" },
   { value: "2023", label: "Building Since" },
   { value: "6", label: "Testing Tools" },
