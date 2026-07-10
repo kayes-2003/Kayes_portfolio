@@ -64,8 +64,8 @@ export const projects = [
     description:
       "Customer-facing web application with JWT-based authentication and role-based access control across 5 internal tools. Database layer architected to scale to 50,000+ user records; functionality and performance validated with 300 real test records. Optimized SQL queries and added Redis caching, cutting average database load by 30% under test conditions.",
     tags: ["React", "Express", "Supabase", "Redis", "Jest", "Cypress"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/kayes-2003",
+    liveUrl: "https://alumni-system-livid.vercel.app/",
+    githubUrl: "https://github.com/kayes-2003/alumni-system",
     featured: true,
     color: "#0F6E56",
   },
@@ -93,9 +93,9 @@ export const projects = [
     title: "Dorja",
     description:
       "Local delivery app UI covering order placement, tracking, and a customer-facing dashboard.",
-    tags: ["React", "Tailwind CSS"],
+    tags: ["React", "Tailwind CSS", "Supabase", "PostgreSQL", "Tailwind CSS", "Supabase Realtime", "Row Level Security"],
     liveUrl: "https://dorja.vercel.app/",
-    githubUrl: "https://github.com/kayes-2003",
+    githubUrl: "https://github.com/kayes-2003/dorja",
     featured: false,
     color: "#7C3AED",
   },
@@ -105,19 +105,9 @@ export const projects = [
       "React-based food-ordering UI with menu browsing and cart functionality.",
     tags: ["React"],
     liveUrl: "https://taco-shop-six.vercel.app/",
-    githubUrl: "https://github.com/kayes-2003",
+    githubUrl: "https://github.com/kayes-2003/taco-shop",
     featured: false,
     color: "#DB2777",
-  },
-  {
-    title: "WiFi Security Extension",
-    description:
-      "Browser extension that scans connected WiFi networks for common vulnerabilities (weak encryption, open ports, default credentials) and alerts users in real time.",
-    tags: ["JavaScript", "WebExtensions API"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/kayes-2003",
-    featured: false,
-    color: "#EA580C",
   },
 ];
 
