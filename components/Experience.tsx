@@ -6,8 +6,8 @@ export default function Experience() {
     <section id="experience" className="py-24 max-w-6xl mx-auto px-6">
       <SectionHeader
         eyebrow="Experience"
-        title="Where I've worked"
-        desc="Full-time roles where I've shipped things people actually use."
+        title="Where I've contributed"
+        desc="— hands-on experience building for a real organization"
       />
 
       <div className="mt-12 relative">
