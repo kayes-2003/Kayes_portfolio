@@ -11,7 +11,7 @@ export default function Projects() {
         <SectionHeader
           eyebrow="Projects"
           title="Things I've built"
-          desc="A selection of projects across SaaS, AI, e-commerce, and developer tooling."
+          desc="A selection of full-stack projects across real-time platforms, e-commerce, and content management."
         />
 
         {/* Featured */}
