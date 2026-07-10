@@ -1,4 +1,9 @@
+"use client";
+
 import { education, selfDirectedLearning } from "@/data/portfolio";
+import { useState } from "react";
+import { siteConfig } from "@/data/portfolio";
+import { SectionHeader } from "./Skills";
 
 export default function Background() {
   return (
